@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuLoginActivity"
+        android:enabled="true"
+        android:title="@string/menu_login_activity"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuFormActivity"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="@string/menu_form_activity"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuSavedActivity"
+        android:enabled="true"
+        android:title="@string/menu_saved_information"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+</menu>

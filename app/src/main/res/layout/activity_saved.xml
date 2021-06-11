@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavedActivity">
+
+    <TextView
+        android:id="@+id/savedFirstNameSavedAct"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277" />
+
+    <TextView
+        android:id="@+id/labelAgeSavedAct"
+        android:layout_width="78dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/label_age_saved_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelEmailSavedAct"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/savedAgeSavedAct"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/age_saved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labelAgeSavedAct"
+        app:layout_constraintTop_toBottomOf="@+id/savedEmailSavedAct"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/labelPhoneSavedAct"
+        android:layout_width="78dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/label_phone_saved_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelAgeSavedAct"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/labelEmailSavedAct"
+        android:layout_width="78dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/label_email_saved_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelSurnameSavedAct"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+        android:id="@+id/savedEmailSavedAct"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/email_saved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labelEmailSavedAct"
+        app:layout_constraintTop_toBottomOf="@+id/savedSurnameSavedAct"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+        android:id="@+id/labelSurnameSavedAct"
+        android:layout_width="78dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/label_sur_name_saved_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelFirstNameSavedAct"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/savedPhoneSavedAct"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/phone_saved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labelPhoneSavedAct"
+        app:layout_constraintTop_toBottomOf="@+id/savedAgeSavedAct"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/savedSurnameSavedAct"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/last_name_saved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labelSurnameSavedAct"
+        app:layout_constraintTop_toBottomOf="@+id/savedFirstNameSavedAct"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/labelFirstNameSavedAct"
+        android:layout_width="78dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="@string/label_first_name_saved_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/savedFirstNameSavedAct"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

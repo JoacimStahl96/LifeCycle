@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LifeCycle</string>
+    <string name="login_name_string">Username</string>
+    <string name="login_password_string">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="checkBox">Stay Logged in</string>
+    <string name="checkBox_text">Remember my login</string>
+    <string name="tv_login_attempts">Login attempts remaining: 5</string>
+    <string name="second_activity_first_name">First name</string>
+    <string name="second_activity_surname">Last name</string>
+    <string name="second_activity_email">Email</string>
+    <string name="second_activity_age">Age</string>
+    <string name="second_activity_phone">Phone</string>
+    <string name="btn_second_activity">Submit</string>
+    <string name="label_first_name_saved_activity">First name</string>
+    <string name="label_sur_name_saved_activity">Last name</string>
+    <string name="label_email_saved_activity">Email</string>
+    <string name="label_age_saved_activity">Age</string>
+    <string name="label_phone_saved_activity">Phone</string>
+    <string name="menu_login_activity">Login</string>
+    <string name="menu_form_activity">Form</string>
+    <string name="menu_saved_information">Saved info</string>
+    <string name="first_name_saved">""</string>
+    <string name="last_name_saved">""</string>
+    <string name="email_saved">""</string>
+    <string name="age_saved">""</string>
+    <string name="phone_saved">""</string>
+
+
+</resources>
